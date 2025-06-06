@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Plyr custom styles */
+.plyr {
+  --plyr-color-main: #1B98E0;
+  --plyr-video-background: #0F110C;
+  height: 100%;
+}
+
+.plyr--video {
+  height: 100%;
+}
+
+.plyr__video-wrapper {
+  height: 100%;
+}

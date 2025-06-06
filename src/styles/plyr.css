@@ -1,0 +1,51 @@
+/* Plyr custom theme */
+:root {
+  --plyr-color-main: #1B98E0;
+  --plyr-video-background: #0F110C;
+  --plyr-menu-background: rgba(15, 17, 12, 0.9);
+  --plyr-menu-color: #FFFFEA;
+  --plyr-menu-border-color: rgba(255, 255, 234, 0.1);
+  
+  /* Controls */
+  --plyr-control-spacing: 10px;
+  --plyr-control-radius: 8px;
+  --plyr-control-icon-size: 18px;
+  
+  /* Progress */
+  --plyr-progress-loading-background: rgba(255, 255, 234, 0.2);
+  --plyr-progress-loading-size: 25px;
+  --plyr-progress-loading-border: 3px;
+  
+  /* Range inputs */
+  --plyr-range-thumb-background: #1B98E0;
+  --plyr-range-thumb-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --plyr-range-thumb-active-shadow-width: 3px;
+  
+  /* Font sizes */
+  --plyr-font-size-small: 13px;
+  --plyr-font-size-base: 15px;
+  --plyr-font-size-large: 18px;
+  --plyr-font-weight-regular: 400;
+  --plyr-font-weight-bold: 600;
+}
+
+.plyr--video {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.plyr__control--overlaid {
+  background: var(--plyr-color-main);
+}
+
+.plyr--full-ui input[type='range'] {
+  color: var(--plyr-color-main);
+}
+
+.plyr__control:hover {
+  background: var(--plyr-color-main);
+}
+
+.plyr__menu__container {
+  border-radius: 8px;
+}
